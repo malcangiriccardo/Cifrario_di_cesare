@@ -34,6 +34,12 @@
             lbl_cifrato = new Label();
             txt_cifrare = new TextBox();
             txt_chiave_1 = new TextBox();
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            button1 = new Button();
             SuspendLayout();
             // 
             // btn_cifra
@@ -87,11 +93,67 @@
             txt_chiave_1.Size = new Size(100, 23);
             txt_chiave_1.TabIndex = 11;
             // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(576, 179);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(100, 23);
+            textBox1.TabIndex = 17;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(576, 121);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(100, 23);
+            textBox2.TabIndex = 16;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(600, 276);
+            label1.Name = "label1";
+            label1.Size = new Size(106, 15);
+            label1.TabIndex = 15;
+            label1.Text = "La parola cifrata è :";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(423, 187);
+            label2.Name = "label2";
+            label2.Size = new Size(135, 15);
+            label2.TabIndex = 14;
+            label2.Text = "Inserire chiave numerica";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(424, 124);
+            label3.Name = "label3";
+            label3.Size = new Size(134, 15);
+            label3.TabIndex = 13;
+            label3.Text = "Inserire chiave da cifrare";
+            // 
+            // button1
+            // 
+            button1.Location = new Point(483, 272);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 12;
+            button1.Text = "Cifra";
+            button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(textBox1);
+            Controls.Add(textBox2);
+            Controls.Add(label1);
+            Controls.Add(label2);
+            Controls.Add(label3);
+            Controls.Add(button1);
             Controls.Add(txt_chiave_1);
             Controls.Add(txt_cifrare);
             Controls.Add(lbl_cifrato);
@@ -112,5 +174,11 @@
         private Label lbl_cifrato;
         private TextBox txt_cifrare;
         private TextBox txt_chiave_1;
+        private TextBox textBox1;
+        private TextBox textBox2;
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private Button button1;
     }
 }
