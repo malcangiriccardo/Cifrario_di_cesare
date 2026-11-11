@@ -34,9 +34,9 @@
             lbl_cifrato = new Label();
             txt_cifrare = new TextBox();
             txt_chiave_1 = new TextBox();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            label1 = new Label();
+            txt_chiave_2 = new TextBox();
+            txt_decifrare = new TextBox();
+            lbl_decifrare = new Label();
             label2 = new Label();
             label3 = new Label();
             button1 = new Button();
@@ -93,28 +93,28 @@
             txt_chiave_1.Size = new Size(100, 23);
             txt_chiave_1.TabIndex = 11;
             // 
-            // textBox1
+            // txt_chiave_2
             // 
-            textBox1.Location = new Point(576, 179);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 17;
+            txt_chiave_2.Location = new Point(576, 179);
+            txt_chiave_2.Name = "txt_chiave_2";
+            txt_chiave_2.Size = new Size(100, 23);
+            txt_chiave_2.TabIndex = 17;
             // 
-            // textBox2
+            // txt_decifrare
             // 
-            textBox2.Location = new Point(576, 121);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 16;
+            txt_decifrare.Location = new Point(576, 121);
+            txt_decifrare.Name = "txt_decifrare";
+            txt_decifrare.Size = new Size(100, 23);
+            txt_decifrare.TabIndex = 16;
             // 
-            // label1
+            // lbl_decifrare
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(600, 276);
-            label1.Name = "label1";
-            label1.Size = new Size(106, 15);
-            label1.TabIndex = 15;
-            label1.Text = "La parola cifrata è :";
+            lbl_decifrare.AutoSize = true;
+            lbl_decifrare.Location = new Point(600, 276);
+            lbl_decifrare.Name = "lbl_decifrare";
+            lbl_decifrare.Size = new Size(106, 15);
+            lbl_decifrare.TabIndex = 15;
+            lbl_decifrare.Text = "La parola cifrata è :";
             // 
             // label2
             // 
@@ -148,9 +148,9 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(textBox1);
-            Controls.Add(textBox2);
-            Controls.Add(label1);
+            Controls.Add(txt_chiave_2);
+            Controls.Add(txt_decifrare);
+            Controls.Add(lbl_decifrare);
             Controls.Add(label2);
             Controls.Add(label3);
             Controls.Add(button1);
@@ -174,9 +174,9 @@
         private Label lbl_cifrato;
         private TextBox txt_cifrare;
         private TextBox txt_chiave_1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Label label1;
+        private TextBox txt_chiave_2;
+        private TextBox txt_decifrare;
+        private Label lbl_decifrare;
         private Label label2;
         private Label label3;
         private Button button1;
